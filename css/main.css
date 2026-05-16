@@ -61,3 +61,19 @@
   }
 }
 
+
+/* partner logos */
+.sub_heading {
+  @apply text-xs font-medium uppercase text-p-900
+}
+
+.main_heading {
+  @apply mt-2 text-2xl tracking-wide capitalize lg:text-3xl font-lobster
+}
+
+@layer utilities {
+  /* partner logos */
+  .logo-ticker-image {
+    @apply w-auto h-6 lg:h-9 
+  }
+}
